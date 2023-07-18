@@ -1,0 +1,41 @@
+name: Node.js CI
+
+on:
+  push
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x, 20.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        run: npm install
+      - name: Check if unit test file exists
+        id: check-file
+        run: |
+          if [ -f "./__tests__/index.test.js" ]; then
+            echo "::set-output name=exists::true"
+          else
+            echo "::set-output name=exists::false"
+          fi
+      - name: Run tests
+        run: |
+            if [ "${{ steps.check-file.outputs.exists }}" = "true" ]; then
+              npm test
+            else
+              echo "Unit test file not found. Skipping tests."
+            fi
+      # - run: npm ci
+      # - run: npm run build --if-present
+      # - run: npm test
+      
