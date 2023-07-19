@@ -5,7 +5,7 @@ This will act as a starter repository for **WebTips** 💻 projects
 
 - 👉 Step 1: Log in to your GitHub Account.
 - 👉 Step 2: Click on **“new”** next to top repositories in the dashboard.
-  !(/assets/ReadMeImages/Step1.png)
+  !((https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step1.PNG))
 - 👉 Step 3: Give appropriate name to new repository.
   !(/assets/ReadMeImages/Step2.png)
 - 👉 Step 4: Make it a private repository with a README.
