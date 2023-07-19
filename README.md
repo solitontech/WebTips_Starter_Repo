@@ -1,8 +1,13 @@
 # WebTips_Starter_Repo
 This will act as a starter repository for **WebTips** 💻 projects
 
-### How to create a starter repo? 🏁
+### How to use a template repository? 🏁
+- 👉 Step 1: Create a new repository and choose the webtips_starter_repo as the template repository.
+- 👉 Step 2: Clone the created repository.
+- 👉 Step 3: Work on it and push the changes to the remote repository
 
+
+### How to create a starter repo? 🏁
 - 👉 Step 1: Log in to your GitHub Account.
 - 👉 Step 2: Click on **“new”** next to top repositories in the dashboard.
 - ![create a new repo](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step1.PNG)
@@ -18,12 +23,17 @@ This will act as a starter repository for **WebTips** 💻 projects
 - 👉 Step 8: Next, give access to whoever requires access by click on collaborators and adding people or teams.
 - ![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_1.PNG)
 - ![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_2.PNG)
+
  
 ### How to create a worflow that runs unit tests for your repo? 🏁
-
 - 👉 Step 1: Go to actions and choose “create your own workflow”.
-- 👉 Step 2: Create a workflow called nodeCI.yml to look for and run tests using jest. 
+- ![create a workflow](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step1.PNG)
+- ![create a workflow](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step2.PNG)
+- ![create a workflow](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step3.PNG)
+- 👉 Step 2: Create a workflow called nodeCI.yml to look for and run tests using jest.
+- ![create a workflow](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step4.PNG)
 - 👉 Step 3: Clone the repository and run the command npm init –y to initialize it as a node project.
 - 👉 Step 4: Run the command npm I –save-dev jest to install and save jest as a dev dependency.
 - 👉 Step 5: Create a .gitignore file and write node_modules to prevent it from getting added to the remote repository.
 - 👉 Step 6: Push these changes.
+
