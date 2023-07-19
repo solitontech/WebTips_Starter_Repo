@@ -1,3 +1,4 @@
+// Code to show file structure. Should be changed according to the assignment 
 const subtract = require('../subtract');
 
 test("subtract 2 - 1 to equal 1", () => {
