@@ -19,7 +19,7 @@ This will act as a starter repository for **WebTips** 💻 projects
 - ![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_1.PNG)
 - ![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_2.PNG)
  
-### How to use this template repo? 🏁
+### How to create a worflow that runs unit tests for your repo? 🏁
 
 - 👉 Step 1: Go to actions and choose “create your own workflow”.
 - 👉 Step 2: Create a workflow called nodeCI.yml to look for and run tests using jest. 
