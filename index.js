@@ -1,5 +1,10 @@
-// Sample code that needs to be changed according to the assignment 
+// Sample code that needs to be changed according to the assignment
 
-const subtract = (a,b) => a - b;
+// export default function subtract(a, b) {
+//   return a - b;
+// };
 
-module.exports = subtract;
+const index = (a,b) => a - b;
+
+// export default subtract;
+module.exports = index;
