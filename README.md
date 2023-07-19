@@ -5,19 +5,19 @@ This will act as a starter repository for **WebTips** 💻 projects
 
 - 👉 Step 1: Log in to your GitHub Account.
 - 👉 Step 2: Click on **“new”** next to top repositories in the dashboard.
-  ![create a new repo](assets/ReadMeImages/Step2.png)
+- ![create a new repo](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step1.PNG)
 - 👉 Step 3: Give appropriate name to new repository.
-  !(/assets/ReadMeImages/Step2.png)
+- ![give name to repo](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step2.PNG)
 - 👉 Step 4: Make it a private repository with a README.
-  !(/assets/ReadMeImages/Step3.png)
+- ![make repo private](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step3.PNG)
 - 👉 Step 5: Finally, click on Create repository.
 - 👉 Step 6: Next, go to settings.
-  !(/assets/ReadMeImages/Step4.png)
+- ![go to settings](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step4.PNG)
 - 👉 Step 7:  Click on the check box for template repository.
-  !(/assets/ReadMeImages/Step5.png)
+- ![make it a template repo](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step5.PNG)
 - 👉 Step 8: Next, give access to whoever requires access by click on collaborators and adding people or teams.
-  !(/assets/ReadMeImages/Step6_1.png)
-  !(/assets/ReadMeImages/Step6_2.png)
+- ![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_1.PNG)
+- ![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_2.PNG)
  
 ### How to use this template repo? 🏁
 
