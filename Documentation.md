@@ -13,7 +13,7 @@
 ![make it a template repo](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step5.PNG) \
 👉 Step 8: Next, give access to whoever requires access by click on collaborators and adding people or teams. \
 ![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_1.PNG) \
-![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_2.PNG) \
+![add collaborators](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/assets/ReadMeImages/Step6_2.PNG) 
 
  
 ### How to create a worflow that runs unit tests for your repo? 🏁
@@ -26,4 +26,4 @@
 👉 Step 3: Clone the repository and run the command npm init –y to initialize it as a node project. \
 👉 Step 4: Run the command npm I –save-dev jest to install and save jest as a dev dependency. \
 👉 Step 5: Create a .gitignore file and write node_modules to prevent it from getting added to the remote repository. \
-👉 Step 6: Push these changes. \
+👉 Step 6: Push these changes. 
