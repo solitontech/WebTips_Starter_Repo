@@ -23,7 +23,7 @@ jobs:
       - name: Check if unit test file exists
         id: check-file
         run: |
-          if [ -f "./__tests__/index.test.js" ]; then
+          if [ -f "./__tests__/sample.test.js" ]; then
             echo "::set-output name=exists::true"
           else
             echo "::set-output name=exists::false"
