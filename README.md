@@ -1,5 +1,5 @@
 # WebTips_Starter_Repo
-This will act as a starter repository for **WebTips** 💻 projects
+This will act as a starter repository for **WebTips** 🌐💻 projects
 
 ### How to use a template repository? 🏁
 👉 Step 1: Create a new repository and choose the webtips_starter_repo as the template repository.\
