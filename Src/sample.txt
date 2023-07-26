@@ -1,0 +1,2 @@
+This is a sample text file meant to show folder structure.
+Add all your assignment code to this folder. 
