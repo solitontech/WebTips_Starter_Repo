@@ -8,7 +8,7 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 👉 Step 4: If your application's tests are written and run using jest, then nnstall jest using the command npm i --save-dev jest.\
 👉 Step 5: If your application does not have any jest tests, add this command to your package.json (for the workflow to pass when there are no tests):\
 ![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/documentation_assets/WorkflowSpecification/noTests.png)\
-👉 Step 6: If your application's tests are written and run using playwright, then follow these steps: [Tests written using Playwright](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/README.md#steps-to-follow-if-your-tests-are-written-using-playwright-) \
+👉 Step 6: If your application's tests are written and run using playwright, then follow these steps: [Tests written using Playwright](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/Documentation/readme.md#steps-to-follow-if-your-tests-are-written-using-playwright-) \
 👉 Step 7: Work on it and push the changes to the remote repository. 
 
 ### Steps to follow if your tests are written using playwright? 🏁
