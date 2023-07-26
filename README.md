@@ -1,2 +1,2 @@
-# WebTips_Starter_Repo
+# WebTips_Template_Repo
 
