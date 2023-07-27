@@ -1,6 +1,6 @@
 ### Contents
-1. [How to create a starter repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/documentation.md#how-to-create-a-starter-repo-) 
-2. [How to create a workflow?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-)
+1. [How to create a starter repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/documentation/documentation.md#how-to-create-a-starter-repo-) 
+2. [How to create a workflow?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/documentation/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-)
 ### How to create a starter repo? 🏁 
 👉 Step 1: Log in to your GitHub Account. \
 👉 Step 2: Click on **“new”** next to top repositories in the dashboard. \
