@@ -79,6 +79,7 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 👉 Step 5: Create a .gitignore file and write node_modules to prevent it from getting added to the remote repository. \
 👉 Step 6: Push these changes. 
 
+This is a sample text line
 
 
 
