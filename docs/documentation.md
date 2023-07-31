@@ -14,9 +14,9 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 👉 Step 2: Clone the created repository.\
 👉 Step 3: Initialize the repository as a node project using the command: __npm init -y__ . \
 👉 Step 4: If your application's unit tests are written and run using jest, then install jest using the command npm i --save-dev jest.\
-👉 Step 5: Create all the unit tests inside the unit folder in the tests folder and add this (to the package.json file to ensure that jest runs your tests):
+👉 Step 5: Create all the unit tests inside the unit folder in the tests folder:
 
-![command to make the help jest detect the tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/WorkflowSpecification/jestSpecification.PNG)
+![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/WorkflowSpecification/testFolder.png)
 
 👉 Step 6: If your application does not have any jest tests, add this command to your package.json (for the workflow to pass when there are no tests):
 
