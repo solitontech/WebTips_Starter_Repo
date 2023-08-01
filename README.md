@@ -4,7 +4,7 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 
 #
 # 🔗 Quicklinks
-🔹[How to use this template repository?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-use-this-template-repository-) \
+🔹[How to use this template repository?](https://github.com/solitontech/WebTips_Starter_Repo/tree/main#how-to-use-this-template-repository-) \
 🔹[How to create a starter repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-create-a-starter-repo-) \
 🔹[How to create a worflow that runs unit tests for your repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-) 
 
