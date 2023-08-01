@@ -29,4 +29,14 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow while configuring playwright tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/configurationSteps.PNG) 
 
-👉 Step 8: Work on it and push the changes to the remote repository. 
+👉 Step 8: After the above steps are complete, push to the main branch. \
+
+### 🗒️ NOTE:
+- For each assignment, create a new branch from the main branch. 
+- After you are done working on an assigment, merge to the main branch. 
+- When merging to the main branch, the code's unit tests and playwright tests will be run, the code will be analyzed for syntax errors and spacing. 
+- If any of the tests fail or there is any error in the code, the branch will not merge with the main branch and the workflow will fail.
+- Create a new branch for each assignment
+
+
+
