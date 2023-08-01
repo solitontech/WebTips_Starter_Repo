@@ -29,7 +29,11 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow while configuring playwright tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/configurationSteps.PNG) 
 
-👉 Step 8: After the above steps are complete, push to the main branch. \
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.5: After installing playwright, it will create a new folder called acceptance and add sample tests to it. So, delete the existing folder called acceptance inside the tests folder. Move the test inside the test-examples folder inside the acceptance folder as well amd delete the folder called test-examples.
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![Image of file to be deleted](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/testExamples.PNG) 
+
+👉 Step 8: After the above steps are complete, push to the main branch. 
 
 ### 🗒️ NOTE:
 - For each assignment, create a new branch from the main branch. 
