@@ -33,14 +33,34 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Image of file to be deleted](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/testExamples.PNG) 
 
-👉 Step 8: After the above steps are complete, push to the main branch. 
+👉 Step 8: The code analyzer pipeline for this repo uses Prettier, EsLint and html-eslint plugin. In order to ensure that the pipeline doesn't fail, follow the below steps: \
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.1: Run the following commands to install them as dev dependencies:
 
-### 🗒️ NOTE:
-- For each assignment, create a new branch from the main branch. 
-- After you are done working on an assigment, merge to the main branch. 
-- When merging to the main branch, the code's unit tests and playwright tests will be run, the code will be analyzed for syntax errors and spacing. 
-- If any of the tests fail or there is any error in the code, the branch will not merge with the main branch and the workflow will fail.
-- Create a new branch for each assignment
+&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install prettier and eslint](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/PrettierEsLintInstallation.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install html-eslint](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/HtmlEsLint.PNG) 
 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.2: Configure the eslint config.js file by running the command:
 
+&nbsp; &nbsp; &nbsp; &nbsp; ![Configure the eslint config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/eslintConfig.PNG) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.3: Give the following specifications:
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![Configure the eslint config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/eslintConfig.PNG) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.4: Add the following to script section of package.json: 
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![Script specification](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ScriptSpecification.PNG) 
+
+👉 Step 9: After the above steps are complete, push to the main branch. 
+
+### 🔻 NOTE:
+📌 For each assignment, create a new branch from the main branch. \
+📌 After you are done working on an assigment, merge to the main branch. \
+📌 When merging to the main branch, the code's unit tests and playwright tests will be run, the code will be analyzed for syntax errors and spacing. \
+📌 If any of the tests fail or there is any error in the code, the branch will not merge with the main branch and the workflow will fail. \
+📌 Create a new branch for each assignment.
+
+### 🔻 CODE ANALYZER NOTES:
+✔️ The HTML Linter used in the code analyzer pipeline here is the html-eslint plugin. There are other options that can be used such as htmlHint. \
+✔️ The coding standard specified in the pipeline for Es Linting is "Standard". There are other options such as Google and AirBnb. \
 
