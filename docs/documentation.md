@@ -1,6 +1,6 @@
 #
-# WebTips Starter Repo
-This will act as a starter repository for **WebTips** 🌐💻 projects
+# WebTips Starter Repo 🌐💻 
+This will act as a starter repository for **WebTips** projects
 
 #
 # 🔗 Quicklinks
