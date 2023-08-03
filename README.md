@@ -1,6 +1,6 @@
 #
-# WebTips Starter Repo
-This will act as a starter repository for **WebTips** 🌐💻 projects
+# WebTips Starter Repo 🌐💻
+This will act as a starter repository for **WebTips** projects
 
 #
 # 🔗 Quicklinks
@@ -84,7 +84,7 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 ### 🔻 NOTE:
 📌 For each assignment, create a new branch from the main branch. \
 📌 After you are done working on an assigment, merge to the main branch. \
-📌 When merging to the main branch, the code's unit tests and playwright tests will be run, the code will be analyzed for syntax errors and spacing. \
+📌 When merging to the main branch, the code's unit tests and playwright tests will be run, the code will be analyzed for syntax errors and spacing using Prettier, ESLint, html-eslint plugin and stylehint. So, ensure that your code follows these standards for the workflows to pass. \
 📌 If any of the tests fail or there is any error in the code, the branch will not merge with the main branch and the workflow will fail. \
 📌 Create a new branch for each assignment.
 
