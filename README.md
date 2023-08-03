@@ -78,7 +78,11 @@ This will act as a starter repository for **WebTips** projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/OverridesConfig.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the script section of package.json: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the rules section of the eslint.config.js file: 
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ruleJsVarName.PNG) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the script section of package.json: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Script specification](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ScriptSpecification.PNG) 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Script specification for CSS](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/scriptStyleLintCSS.PNG) 
@@ -94,5 +98,7 @@ This will act as a starter repository for **WebTips** projects
 
 ### 🔻 CODE ANALYZER NOTES:
 ✔️ The HTML Linter used in the code analyzer pipeline here is the html-eslint plugin. There are other options that can be used such as htmlHint. \
-✔️ The coding standard specified in the pipeline for Es Linting is "Standard". There are other options such as Google and AirBnb. 
+✔️ The coding standard specified in the pipeline for Es Linting is "Standard". There are other options such as Google and AirBnb. \
+✔️ The JS files variable and function names should follow Camel Casing for the pipeline to pass. 
+
 
