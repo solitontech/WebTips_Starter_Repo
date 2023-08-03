@@ -13,7 +13,7 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 👉 Step 2: Clone the created repository.\
 👉 Step 3: Initialize the repository as a node project using the command: __npm init -y__ . \
 👉 Step 4: This starter repo assumes that unit tests are written and run using jest. So, install jest using the command npm i --save-dev jest.\
-👉 Step 5: Create all the unit tests inside the unit folder in the tests folder:
+👉 Step 5: Create all the unit tests inside the unit folder in the tests folder: 
 
 ![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/WorkflowSpecification/testFolder.png)
 
@@ -43,11 +43,39 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Configure the eslint config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/eslintConfig.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.3: Give the following specifications:
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.3: Give the following specifications: 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![Configure the eslint config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/eslintConfig.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 1](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep1.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.4: Add the following to script section of package.json: 
+&nbsp; &nbsp; &nbsp; &nbsp; If your project has babel installed then you definitely need to choose the JavaScript Module option. If you are working on a project such as React, Vue, Angular e.t.c they all use babel so you need choose this option. The CommonJS option is meant for commonJS that has nothing to do with babel, maybe your nodejs project and any other javascript project. 
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 2](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep2.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 3](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep3.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 4](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep4.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 5](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep5.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 6](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep6.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 7](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep7.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 8](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep8.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep9.PNG" width="650">
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 10](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep10.PNG)
+
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.4: Add the following to the plugin section of the eslint.config.js file: 
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/htmlPluginConfig.PNG) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.5: Add the following to the override section of the eslint.config.js file: 
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/OverridesConfig.PNG) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the script section of package.json: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Script specification](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ScriptSpecification.PNG) 
 
@@ -62,5 +90,5 @@ This will act as a starter repository for **WebTips** 🌐💻 projects
 
 ### 🔻 CODE ANALYZER NOTES:
 ✔️ The HTML Linter used in the code analyzer pipeline here is the html-eslint plugin. There are other options that can be used such as htmlHint. \
-✔️ The coding standard specified in the pipeline for Es Linting is "Standard". There are other options such as Google and AirBnb. \
+✔️ The coding standard specified in the pipeline for Es Linting is "Standard". There are other options such as Google and AirBnb. 
 
