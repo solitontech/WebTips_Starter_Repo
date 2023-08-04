@@ -33,7 +33,7 @@ This will act as a starter repository for **WebTips** projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Image of file to be deleted](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/testExamples.PNG) 
 
-👉 Step 8: The code analyzer pipeline for this repo uses Prettier, EsLint, html-eslint plugin and Stylelint. In order to ensure that the pipeline doesn't fail, follow the below steps: \
+👉 Step 8: The code analyzer pipeline for this repo uses Prettier, EsLint, html-eslint plugin, eslint-plugin-jsdoc and Stylelint. In order to ensure that the pipeline doesn't fail, follow the below steps: \
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.1: Run the following commands to install them as dev dependencies:
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install prettier and eslint](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/PrettierEsLintInstallation.PNG) 
@@ -41,6 +41,8 @@ This will act as a starter repository for **WebTips** projects
 &nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install html-eslint plugin](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/HtmlEsLint.PNG) 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install stylelint](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/styleLintCSS.PNG) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install eslint-plugin-jsdoc](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintJsdocPlugin.PNG) 
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.2: Configure the eslint config.js file by running the command:
 
@@ -72,19 +74,23 @@ This will act as a starter repository for **WebTips** projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.4: Add the following to the plugin section of the eslint.config.js file: 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/htmlPluginConfig.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/pluginsList.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.5: Add the following to the override section of the eslint.config.js file: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.5: Add the following to the extends section of the eslint.config.js file: 
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/extendsEslintConfig.PNG) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the override section of the eslint.config.js file: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/OverridesConfig.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the rules section of the eslint.config.js file: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the rules section of the eslint.config.js file: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ruleJsVarName.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the script section of package.json: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.8: Add the following to the script section of package.json: 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![Script specification](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ScriptSpecification.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; ![Script specification](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ScriptSpecification.PNG) \
 &nbsp; &nbsp; &nbsp; &nbsp; ![Script specification for CSS](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/scriptStyleLintCSS.PNG) 
 
 👉 Step 9: After the above steps are complete, push to the main branch. 
@@ -99,6 +105,7 @@ This will act as a starter repository for **WebTips** projects
 ### 🔻 CODE ANALYZER NOTES:
 ✔️ The HTML Linter used in the code analyzer pipeline here is the html-eslint plugin. There are other options that can be used such as htmlHint. \
 ✔️ The coding standard specified in the pipeline for Es Linting is "Standard". There are other options such as Google and AirBnb. \
-✔️ The JS files variable and function names should follow Camel Casing for the pipeline to pass. 
+✔️ The JS files variable and function names should follow Camel Casing for the pipeline to pass. The js files should also be properly documented through jsdocs comments.
+
 
 
