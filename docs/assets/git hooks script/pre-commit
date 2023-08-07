@@ -34,7 +34,7 @@ Your commit will be rejected. You should rename your branch to a valid name and 
 #Check whether the branch name is valid
 #If invalid return exit status as 1
 #Or return exit status as 0
-if [[ ! "$local_branch" == "main" && ! "$local_branch" =~ $valid_branch_regex ]]
+if [[ ! "$local_branch" == "main" && ! "$local_branch" == "main" && ! "$local_branch" =~ $valid_branch_regex ]]
 then
     echo "$message"
     exit 1
