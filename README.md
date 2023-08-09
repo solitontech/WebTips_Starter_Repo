@@ -9,6 +9,7 @@ This will act as a starter repository for **WebTips** projects
 🔹[How to create a worflow that runs unit tests for your repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-) 
 
 ### How to use this template repository? 🏁
+
 👉 Step 1: Create a new repository and choose the webtips_starter_repo as the template repository. \
 👉 Step 2: Clone the created repository.\
 👉 Step 3: Initialize the repository as a node project using the command: __npm init -y__ . \
@@ -94,6 +95,10 @@ This will act as a starter repository for **WebTips** projects
 &nbsp; &nbsp; &nbsp; &nbsp; ![Script specification for CSS](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/scriptStyleLintCSS.PNG) 
 
 👉 Step 9: After the above steps are complete, push to the main branch. 
+
+## 📎 GitHooks:
+Follow the steps in this file to set up githooks in your local repository: [GitHooks](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/gitHooks.md#git-hooks) \
+Ensure that your branch names and commit messages follow this syntax: [GuideLines](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/guidelines%20for%20git.md#-guidelines-for-branch-name--commit-messages)
 
 ### 🔻 NOTE:
 📌 For each assignment, create a new branch from the main branch. \
