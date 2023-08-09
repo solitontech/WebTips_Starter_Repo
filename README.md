@@ -107,5 +107,10 @@ This will act as a starter repository for **WebTips** projects
 ✔️ The coding standard specified in the pipeline for Es Linting is "Standard". There are other options such as Google and AirBnb. \
 ✔️ The JS files variable and function names should follow Camel Casing for the pipeline to pass. The js files should also be properly documented through jsdocs comments.
 
+### 🔌 RECOMMENDED VS CODE PLUGINS:
+✨ Prettier (To format your code)\
+🅰️ CSS Alphabetize (To arrange properties in alphabetical order in CSS files)\
+📖 Document This (To generate documentation for JavaScript files)
+
 
 
