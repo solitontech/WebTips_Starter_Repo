@@ -45,9 +45,9 @@ This will act as a starter repository for **WebTips** projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install eslint-plugin-jsdoc](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintJsdocPlugin.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.2: Configure the eslint config.js file by running the command:
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.2: Configure the eslint config file (.eslintrc.js) by running the command:
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![Configure the eslint config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/eslintConfig.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; ![Configure the eslint config file (.eslintrc.js)](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/eslintConfig.PNG) 
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.3: Give the following specifications: 
 
@@ -73,19 +73,19 @@ This will act as a starter repository for **WebTips** projects
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 10](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep10.PNG)
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.4: Add the following to the plugin section of the eslint.config.js file: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.4: Add the following to the plugin section of the eslint config file (.eslintrc.js) file: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/pluginsList.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.5: Add the following to the extends section of the eslint.config.js file: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.5: Add the following to the extends section of the eslint config file (.eslintrc.js) file: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/extendsEslintConfig.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the override section of the eslint.config.js file: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the override section of the eslint config file (.eslintrc.js) file: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/OverridesConfig.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the rules section of the eslint.config.js file: 
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the rules section of the eslint config file (.eslintrc.js) file: 
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/rulesEslintConfig.PNG) 
 
@@ -101,11 +101,11 @@ Follow the steps in this file to set up githooks in your local repository: [GitH
 Ensure that your branch names and commit messages follow this syntax: [GuideLines](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/guidelines%20for%20git.md#-guidelines-for-branch-name--commit-messages)
 
 ### 🔻 NOTE:
-📌 For each assignment, create a new branch from the main branch. \
-📌 After you are done working on an assigment, merge to the main branch. \
-📌 When merging to the main branch, the code's unit tests and playwright tests will be run, the code will be analyzed for syntax errors and spacing using Prettier, ESLint, html-eslint plugin and stylelint. So, ensure that your code follows these standards for the workflows to pass. \
-📌 If any of the tests fail or there is any error in the code, the branch will not merge with the main branch and the workflow will fail. \
-📌 Create a new branch for each assignment.
+📌 For each assignment, create a new branch from the develop branch. \
+📌 After you are done working on an assigment, merge to the develop branch. \
+📌 When merging to the develop branch, the code's unit tests and playwright tests will be run, the code will be analyzed for syntax errors and spacing using Prettier, ESLint, html-eslint plugin and stylelint. So, ensure that your code follows these standards for the workflows to pass. \
+📌 If any of the tests fail or there is any error in the code, the branch will not merge with the develop branch and the workflow will fail. \
+📌 Once you are done working on the project, merge with the main branch. 
 
 ### 🔻 CODE ANALYZER NOTES:
 ✔️ The HTML Linter used in the code analyzer pipeline here is the html-eslint plugin. There are other options that can be used such as htmlHint. \
