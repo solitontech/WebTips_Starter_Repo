@@ -16,11 +16,11 @@ This will act as a starter repository for **WebTips** projects
 👉 Step 4: This starter repo assumes that unit tests are written and run using jest. So, install jest using the command npm i --save-dev jest.\
 👉 Step 5: Create all the unit tests inside the unit folder in the tests folder: 
 
-![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/WorkflowSpecification/testFolder.png)
+![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/FolderStructure/testFolder.png)
 
 👉 Step 6: If your application does not have any jest tests, add this command to your package.json (for the workflow to pass when there are no tests):
 
-![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/WorkflowSpecification/noTests.png)
+![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/JestTests/jestTestScript.png)
 
 👉 Step 7: This starter repo assumes that all the end-to-end tests are written using playwright. So, follow the below given steps to initialize the project as a playwright project: \
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.1: Run this command: __npm init playwright@latest__ to initialize the project as a playwright project\
