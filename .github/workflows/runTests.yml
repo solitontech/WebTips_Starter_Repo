@@ -24,9 +24,9 @@ jobs:
             - name: npm install
               run: |
                   npm install
-            - name: test
+            - name: test and code coverage 
               run: |
-                  npm test --findRelatedTests tests/unit/
+                  npm run test
                   
                   
     playwright-test:
