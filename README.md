@@ -20,7 +20,7 @@ This will act as a starter repository for **WebTips** projects
 
 👉 Step 6: If your application does not have any jest tests, add this command to your package.json (for the workflow to pass when there are no tests):
 
-![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/JestTests/jestTestScript.png)
+![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/JestTests/jestTestScript.PNG)
 
 👉 Step 7: This starter repo assumes that all the end-to-end tests are written using playwright. So, follow the below given steps to initialize the project as a playwright project: \
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.1: Run this command: __npm init playwright@latest__ to initialize the project as a playwright project\
