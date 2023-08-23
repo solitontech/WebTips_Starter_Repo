@@ -19,7 +19,7 @@ This will act as a starter repository for **WebTips** projects
 ![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/FolderStructure/testFolder.png)
 
 👉 Step 6: Add this command to the test section of the package.json file:
-__"jest --findRelatedTests tests/unit/ --passWithNoTests --coverage --collectCoverageFrom=\"./src/**/*.{js}\""__
+__"jest --findRelatedTests tests/unit/ --passWithNoTests --coverage --collectCoverageFrom=\\"./src/**/*.{js}\\""__
 
 ![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/JestTests/jestTestScript.PNG)
 
