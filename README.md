@@ -18,7 +18,8 @@ This will act as a starter repository for **WebTips** projects
 
 ![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/FolderStructure/testFolder.png)
 
-👉 Step 6: If your application does not have any jest tests, add this command to your package.json (for the workflow to pass when there are no tests):
+👉 Step 6: Add this command to the test section of the package.json file:
+__"jest --findRelatedTests tests/unit/ --passWithNoTests --coverage --collectCoverageFrom=\"./src/**/*.{js}\""__
 
 ![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/JestTests/jestTestScript.PNG)
 
@@ -35,15 +36,26 @@ This will act as a starter repository for **WebTips** projects
 &nbsp; &nbsp; &nbsp; &nbsp; ![Image of file to be deleted](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/testExamples.PNG) 
 
 👉 Step 8: The code analyzer pipeline for this repo uses Prettier, EsLint, html-eslint plugin, eslint-plugin-jsdoc and Stylelint. In order to ensure that the pipeline doesn't fail, follow the below steps: \
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.1: Run the following commands to install them as dev dependencies:
+&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.1: Run the following commands to install them as dev dependencies: 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install prettier and eslint](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/PrettierEsLintInstallation.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install html-eslint plugin](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/HtmlEsLint.PNG) 
+```diff
+npm install --save-dev eslint
+```
+```diff
+npm install --save-dev --save-exact prettier 
+```
+```diff
+npm install --save-dev eslint @html-eslint/parser @html-eslint/eslint-plugin
+```
+```diff
+npm init stylelint
+```
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install stylelint](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/styleLintCSS.PNG) 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install eslint-plugin-jsdoc](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintJsdocPlugin.PNG) 
+```diff
+npm install --save-dev eslint-plugin-jsdoc
+```
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.2: Configure the eslint config file (.eslintrc.js) by running the command:
 
