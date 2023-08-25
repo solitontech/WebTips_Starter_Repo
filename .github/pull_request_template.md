@@ -29,7 +29,7 @@ TODO: Detail what testing has been done to ensure this submission meets requirem
 
 (if applicable)
 
-# Checklist:
+## Checklist:
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
