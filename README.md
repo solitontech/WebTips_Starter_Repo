@@ -95,7 +95,7 @@ npm install --save-dev eslint-plugin-jsdoc
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the override section of the eslint config file (.eslintrc.js) file: 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/OverridesConfig.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/CodeAnalyzer/OverridesConfigUpdated.PNG) 
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the rules section of the eslint config file (.eslintrc.js) file: 
 
