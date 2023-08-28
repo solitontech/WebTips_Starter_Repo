@@ -16,12 +16,12 @@ This will act as a starter repository for **WebTips** projects
 👉 Step 4: This starter repo assumes that unit tests are written and run using jest. So, install jest using the command npm i --save-dev jest.\
 👉 Step 5: Create all the unit tests inside the unit folder in the tests folder: 
 
-![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/FolderStructure/testFolder.png)
+![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/FolderStructure/testFolder.png)
 
 👉 Step 6: Add this command to the test section of the package.json file:
 __"jest --findRelatedTests tests/unit/ --passWithNoTests --coverage --collectCoverageFrom=\\"./src/**/*.{js}\\""__
 
-![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/JestTests/jestTestScript.PNG)
+![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/JestTests/jestTestScript.PNG)
 
 👉 Step 7: This starter repo assumes that all the end-to-end tests are written using playwright. So, follow the below given steps to initialize the project as a playwright project: \
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.1: Run this command: __npm init playwright@latest__ to initialize the project as a playwright project\
@@ -29,7 +29,7 @@ __"jest --findRelatedTests tests/unit/ --passWithNoTests --coverage --collectCov
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.3: The moment playwright is installed, it will also give some sample tests. It will ask where these tests should be. By default, all the tests will be in tests folder. Specify that the tests must be stored in a folder called acceptance inside the tests folder using this path: __./tests/acceptance/__ \
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.4: When installing playwright, it will ask whether to create a GitHub Actions workflow. Give no for this option because the starter repo already has a workflow to run the playwright tests. 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow while configuring playwright tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/PlaywrightTests/configUpdated.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow while configuring playwright tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/configUpdated.PNG) 
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.5: After installing playwright, it will create a new folder called acceptance and add sample tests to it. So, delete the existing folder called acceptance inside the tests folder (that folder only exists in the template repo to show folder structure). Move the test inside the test-examples folder inside the acceptance folder and delete the folder called test-examples.
 
@@ -95,7 +95,7 @@ npm install --save-dev eslint-plugin-jsdoc
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the override section of the eslint config file (.eslintrc.js) file: 
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/version2/docs/assets/Images/CodeAnalyzer/OverridesConfigUpdated.PNG) 
+&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/OverridesConfigUpdated.PNG) 
 
 &nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the rules section of the eslint config file (.eslintrc.js) file: 
 
@@ -128,6 +128,8 @@ Ensure that your branch names and commit messages follow this syntax: [GuideLine
 ✨ Prettier (To format your code)\
 🅰️ CSS Alphabetize (To arrange properties in alphabetical order in CSS files)\
 📖 Document This (To generate documentation for JavaScript files)
+
+
 
 
 
