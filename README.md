@@ -4,20 +4,34 @@ This will act as a starter repository for **WebTips** projects
 
 #
 # 🔗 Quicklinks
-🔹[How to use this template repository?](https://github.com/solitontech/WebTips_Starter_Repo/tree/main#how-to-use-this-template-repository-) \
-🔹[How to create a starter repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-create-a-starter-repo-) \
-🔹[How to create a worflow that runs unit tests for your repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-) 
+🔹[How to use this template repository?](#how-to-use-this-template-repository-🏁) \
+🔹[How to create a starter repo?](./docs/documentation.md#how-to-create-a-starter-repo-🏁) \
+🔹[How to create a worflow that runs unit tests for your repo?](./docs/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-🏁) 
 
 ### How to use this template repository? 🏁
 
 👉 Step 1: Create a new repository and choose the webtips_starter_repo as the template repository. \
 👉 Step 2: Clone the created repository.\
-👉 Step 3: open terminal and give command ```npm install```
+👉 Step 3: Run the command ```npm install``` in terminal\
+👉 Step 4: To check lint, use the following commands:
+```
+npm run lintHTML
+npm run lintCSS
+npm run lintJS
+```
+👉 Step 5: To fix linting Errors, use the following commands:
+```
+npm run lintHTML -- --fix
+npm run lintCSS -- --fix
+npm run lintJS -- --fix
+```
+
+#### Note: The fix command will only limited errors
  
 
 ## 📎 GitHooks:
-Follow the steps in this file to set up githooks in your local repository: [GitHooks](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/gitHooks.md#git-hooks) \
-Ensure that your branch names and commit messages follow this syntax: [GuideLines](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/guidelines%20for%20git.md#-guidelines-for-branch-name--commit-messages)
+Follow the steps in this file to set up githooks in your local repository: [GitHooks](./docs/gitHooks.md#git-hooks) \
+Ensure that your branch names and commit messages follow this syntax: [GuideLines](./docs/guidelines%20for%20git.md)
 
 ### 🔻 NOTE:
 📌 For each assignment, create a new branch from the develop branch. \
