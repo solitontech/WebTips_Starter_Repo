@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     'standard',
     'plugin:react/recommended',
-    'plugin:@jsdoc/recommended',
+    'plugin:jsdoc/recommended',
   ],
   overrides: [
     {
@@ -15,13 +15,13 @@ module.exports = {
         node: true
       },
       files: [
-        '.eslintrc.{js,cjs}'
+        '*.html'
       ],
-      parser: "@html-eslint/parser",
+      parser: '@html-eslint/parser',
       parserOptions: {
         sourceType: 'script'
       },
-      extends: ["plugin:@html-eslint/recommended"],
+      extends: ['plugin:@html-eslint/recommended'],
     }
   ],
   parserOptions: {
@@ -33,7 +33,7 @@ module.exports = {
     'jsdoc'
   ],
   rules: {
-    "id-match": ["error", "^[a-z]+([A-Z][a-z]+)*$"],
-    "@html-eslint/id-naming-convention": ["error", "kebab-case"],
+    'id-match': ['error', '^[a-z]+([A-Z][a-z]+)*$'],
+    '@html-eslint/id-naming-convention': ['error', 'kebab-case'],
   }
 }
