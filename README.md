@@ -4,113 +4,34 @@ This will act as a starter repository for **WebTips** projects
 
 #
 # 🔗 Quicklinks
-🔹[How to use this template repository?](https://github.com/solitontech/WebTips_Starter_Repo/tree/main#how-to-use-this-template-repository-) \
-🔹[How to create a starter repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-create-a-starter-repo-) \
-🔹[How to create a worflow that runs unit tests for your repo?](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-) 
+🔹[How to use this template repository?](#how-to-use-this-template-repository-🏁) \
+🔹[How to create a starter repo?](./docs/documentation.md#how-to-create-a-starter-repo-🏁) \
+🔹[How to create a worflow that runs unit tests for your repo?](./docs/documentation.md#how-to-create-a-worflow-that-runs-unit-tests-for-your-repo-🏁) 
 
 ### How to use this template repository? 🏁
 
 👉 Step 1: Create a new repository and choose the webtips_starter_repo as the template repository. \
 👉 Step 2: Clone the created repository.\
-👉 Step 3: Initialize the repository as a node project using the command: __npm init -y__ . \
-👉 Step 4: This starter repo assumes that unit tests are written and run using jest. So, install jest using the command npm i --save-dev jest.\
-👉 Step 5: Create all the unit tests inside the unit folder in the tests folder: 
-
-![folder structure for tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/FolderStructure/testFolder.png)
-
-👉 Step 6: Add this command to the test section of the package.json file:
-__"jest --findRelatedTests tests/unit/ --passWithNoTests --coverage --collectCoverageFrom=\\"./src/**/*.{js}\\""__
-
-![command to make the workflow run when there are no tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/JestTests/jestTestScript.PNG)
-
-👉 Step 7: This starter repo assumes that all the end-to-end tests are written using playwright. So, follow the below given steps to initialize the project as a playwright project: \
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.1: Run this command: __npm init playwright@latest__ to initialize the project as a playwright project\
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.2: It will ask whether you want to continue with typescript or javascript. By default, it will take typescript. If your project uses JavaScript, give JavaScript option.  \
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.3: The moment playwright is installed, it will also give some sample tests. It will ask where these tests should be. By default, all the tests will be in tests folder. Specify that the tests must be stored in a folder called acceptance inside the tests folder using this path: __./tests/acceptance/__ \
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.4: When installing playwright, it will ask whether to create a GitHub Actions workflow. Give no for this option because the starter repo already has a workflow to run the playwright tests. 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow while configuring playwright tests](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/configUpdated.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 7.5: After installing playwright, it will create a new folder called acceptance and add sample tests to it. So, delete the existing folder called acceptance inside the tests folder (that folder only exists in the template repo to show folder structure). Move the test inside the test-examples folder inside the acceptance folder and delete the folder called test-examples.
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![Image of file to be deleted](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/PlaywrightTests/testExamples.PNG) 
-
-👉 Step 8: The code analyzer pipeline for this repo uses Prettier, EsLint, html-eslint plugin, eslint-plugin-jsdoc and Stylelint. In order to ensure that the pipeline doesn't fail, follow the below steps: \
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.1: Run the following commands to install them as dev dependencies: 
-
-```diff
-npm install --save-dev eslint
+👉 Step 3: Run the command ```npm install``` in terminal\
+👉 Step 4: To check lint, use the following commands:
 ```
-```diff
-npm install --save-dev --save-exact prettier 
+npm run lintHTML
+npm run lintCSS
+npm run lintJS
 ```
-```diff
-npm install --save-dev eslint @html-eslint/parser @html-eslint/eslint-plugin
+👉 Step 5: To fix linting Errors, use the following commands:
 ```
-```diff
-npm init stylelint
+npm run lintHTML -- --fix
+npm run lintCSS -- --fix
+npm run lintJS -- --fix
 ```
 
-&nbsp; &nbsp; &nbsp; &nbsp; ![Steps to follow to install stylelint](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/styleLintCSS.PNG) 
-
-```diff
-npm install --save-dev eslint-plugin-jsdoc
-```
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.2: Configure the eslint config file (.eslintrc.js) by running the command:
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![Configure the eslint config file (.eslintrc.js)](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/eslintConfig.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.3: Give the following specifications: 
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 1](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep1.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; If your project has babel installed then you definitely need to choose the JavaScript Module option. If you are working on a project such as React, Vue, Angular e.t.c they all use babel so you need choose this option. The CommonJS option is meant for commonJS that has nothing to do with babel, maybe your nodejs project and any other javascript project. 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 2](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep2.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 3](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep3.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 4](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep4.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 5](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep5.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 6](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep6.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 7](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep7.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 8](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep8.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep9.PNG" width="650">
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint config step 10](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/esLintConfigStep10.PNG)
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.4: Add the following to the plugin section of the eslint config file (.eslintrc.js) file: 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/pluginsList.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.5: Add the following to the extends section of the eslint config file (.eslintrc.js) file: 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/extendsEslintConfig.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.6: Add the following to the override section of the eslint config file (.eslintrc.js) file: 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/OverridesConfigUpdated.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.7: Add the following to the rules section of the eslint config file (.eslintrc.js) file: 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![EsLint.config.js](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/rulesEslintConfig.PNG) 
-
-&nbsp; &nbsp; &nbsp; &nbsp; 🛡️ Step 8.8: Add the following to the script section of package.json: 
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![Script specification](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/ScriptSpecification.PNG) \
-&nbsp; &nbsp; &nbsp; &nbsp; ![Script specification for CSS](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/assets/Images/CodeAnalyzer/scriptStyleLintCSS.PNG) 
-
-👉 Step 9: After the above steps are complete, push to the main branch. 
+#### Note: The fix command will only limited errors
+ 
 
 ## 📎 GitHooks:
-Follow the steps in this file to set up githooks in your local repository: [GitHooks](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/gitHooks.md#git-hooks) \
-Ensure that your branch names and commit messages follow this syntax: [GuideLines](https://github.com/solitontech/WebTips_Starter_Repo/blob/main/docs/guidelines%20for%20git.md#-guidelines-for-branch-name--commit-messages)
+Follow the steps in this file to set up githooks in your local repository: [GitHooks](./docs/gitHooks.md#git-hooks) \
+Ensure that your branch names and commit messages follow this syntax: [GuideLines](./docs/guidelines%20for%20git.md)
 
 ### 🔻 NOTE:
 📌 For each assignment, create a new branch from the develop branch. \
